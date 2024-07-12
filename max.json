@@ -11,7 +11,7 @@
       "name": "直播",
       "type": 0,
       "playerType": 1,
-      "url": "https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/lib/zb.txt",
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/zb.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -22,7 +22,7 @@
           "name": "live",
           "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
           "urls": [
-            "proxy://do=live&type=txt&ext=https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/lib/zb.txt"
+            "proxy://do=live&type=txt&ext=https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/zb.txt"
           ]
         }
       ]
@@ -46,41 +46,54 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./a/圣城影视.json","jar": "./jar/4k.jar"
-    }, {"key":"XBPQ_文才","name":"🌙文才|速播","type":3,"api":"csp_XBPQ", "jar":"./lib/XBPQ.jar",
-			"ext":{"分类": "国产剧&短剧&喜剧片&爱情片&恐怖片&战争片&科幻片&动作片&综艺&欧美剧&港台剧&日韩剧",
-				"分类值": "14&42&22&26&36&25&30&23&69&15&16&62",
-				"分类url": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg}",
-				"数组二次截取": "list\":[&&]",
-				"数组": "{&&}[不包含:]",
-				"图片": "vod_pic\":\"&&\"",
-				"标题": "vod_name\":\"&&\"",
-				"副标题": "+vod_remarks\":\"&&\"",
-				"链接": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,",
-				"搜索url": "https://api.zeqaht.com/api.php/provide/vod?ac=detail&wd={wd}",
-				"搜索模式": "1",
-				"搜索二次截取": "list\":[&&]",
-				"搜索数组": "{&&}[不包含:]",
-				"搜索图片": "vod_pic\"*\"&&\"",
-				"搜索标题": "vod_name\"*\"&&\"",
-				"搜索副标题": "type_name\":\"&&\"",
-				"搜索链接": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,",
-				"影片类型": "vod_class\"*\"&&\"",
-				"导演": "vod_director\"*\"&&\"",
-				"主演": "vod_actor\"*\"&&\"",
-				"简介": "vod_content\"*\"&&\"",
-				"线路二次截取": "\"list\":[&&]",
-				"线路数组": "\"vod_play_from\":&&,",
-				"线路标题": "\"&&\"",
-				"播放数组": "vod_play_url\":&&,[替换:\">>链表题#$>>题链#\\#>>链表表题]",
-				"播放二次截取": "",
-				"播放列表": "表&&表",
-				"播放标题": "题&&题",
-				"播放链接": "链&&链",
-				"嗅探词": ".m3u8",
-				"播放请求头":"User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#Origin$www.whbax.cn#Referer$www.whbax.cn#Cookie$PHPSESSID=7da46a353cf8bac46b4f8226f06042ad",
-				"免嗅": "0"
-			}
-		}, { "key": "Ikanbot", "name": "🌙爱看|机器人", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.ikanbot.com$$$proxy","jar":"./pg.jar"},  {"key":"drpy_js_yt","name":"🌙宝盒|速播","type":3,"api":"./lib/drpy2.min.js","ext":"./js/yt.js"}, {
+    },{"key": "csp_XBPQ_6V",
+  "name": "🌙6V|影视",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "jar" : "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/jar/bh.jar",
+  "ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/h/bh.json"},{ "key": "Ikanbot", "name": "🌙爱看|机器人", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.aikanbot.com$$$proxy","jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/pg.jar"},
+    {
+      "key": "jqq",
+      "name": "🌙剧圈圈｜影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/XBPQ.jar",
+      "ext": {
+        "分类url":"https://www.jqqzx.cc/vodshow/id/{cateId}/page/{catePg}.html",
+        "分类": "电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman" 
+      }
+    },{
+      "key": "csp_LiteApple",
+      "name": "🌙苹果┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_LiteApple",
+	  "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/ap.jar",	
+    "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },{"key":"js兄弟影视","name":"🌙兄弟|影视","type":3,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/drpy2.min.js","ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/xdys.js"},{"key":"南瓜影视","name":"🌙南瓜┃影视","type":3,"api":"csp_WexNgys","searchable":1,"quickSearch":1,"filterable":0 ,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"快看影视","name":"🌙快看┃影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"酷看影视","name":"🌙酷看┃影视","type":3,"api":"csp_Wexkukantv","searchable":1,"changeable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"明日影视","name":"🌙明日┃影视","type":3,"api":"csp_WexMingriys","searchable":1,"changeable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"腐剧视频","name":"🌙腐剧┃影视","type":3,"api":"csp_WexFujutv","searchable":1,"changeable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"看看影视","name":"🌙看看┃影视","type":3,"api":"csp_WebIV","searchable":1,"quickSearch":1,"filterable":0,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"视频库","name":"🌙视频┃影视","type":3,"api":"csp_WebVidHub","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://vidhub1.cc","jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"天天影视","name":"🌙天天┃影视","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"热播影视","name":"🌙热播┃影视","type":3,"api":"csp_AppRB","searchable":1,"quickSearch":1,"filterable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"兄弟影视","name":"🌙兄弟┃影视","type":3,"api":"csp_Wexxiongdiys","searchable":1,"changeable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"农民影视","name":"🌙农民┃影视","type":3,"api":"csp_WexNmys","searchable":1,"changeable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"利播影视","name":"🌙利播┃影视","type":3,"api":"csp_Wexlibhd","searchable":1,"changeable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"纯享影视","name":"🌙纯享┃影视","type":3,"api":"csp_WexF4kvm","searchable":1,"changeable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"两个磁力","name":"🌙两个┃影视","type":3,"api":"csp_Wexbttwo","searchable":1,"changeable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"机器人","name":"🌙机器┃影视","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://v.aikanbot.com","jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"素白白","name":"🌙素白┃影视","type":3,"api":"csp_Subaibai","searchable":1,"changeable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"圣城影视","name":"🌙圣城┃影视","type":3,"api":"csp_AppNK","searchable":1,"changeable":1,"ext":"mDw3UhvpqIkZ5UdXklz/4Il9zM5cNjB0mlRRZ9AJtWoDBppZXY/MdmoGXv//uRgRP2GmDU4DQ0dtJ3TOynvDwm+Yb2YXjCzfj0qmrCIfLeBniWNTsTxzfA32PGyymnWql5B8DHQxKbHgDEgJ6j4L4w==","jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"骚火影视","name":"🌙骚火┃影视","type":3,"api":"csp_Wexsaohuo","searchable":1,"changeable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},
+{"key":"在线之家","name":"🌙在线┃之家","type":3,"api":"csp_Wexzxzj","searchable":1,"changeable":1,"jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/lib/o.jar"},   {"key":"drpy_js_yt","name":"🌙宝盒|速播","type":3,"api":"./lib/drpy2.min.js","ext":"./js/yt.js"}, {
       "key": "csp_黑狐",
       "name": "🌙黑狐|影视",
       "type": 3,
