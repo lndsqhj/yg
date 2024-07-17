@@ -9,7 +9,7 @@
     
 {
       "name": "live",
-      "url": "http://oy.oyxx-1.eu.org/hhbb.php",
+      "url": "https://tv.iill.top//m3u/Adult",
       "type": 0,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
@@ -63,17 +63,26 @@
         "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
         "三次跳转播放链接": "\"url\"*\"&&\""
       }
-    },{ 
-      "key": "csp_xBPQ_秒", 
-      "name": "👩‍🎓文才推荐²", 
+    },  {
+      "key": "bulei",
+      "name": "布蕾Tv",
       "type": 3,
-      "api": "csp_XBPQ", 
-      "searchable": 1, 
-      "quickSearch": 1, 
-      "filterable": 0, 
-      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/lib/文才.json", 
-   "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar"   
-    },{ 
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://buleitv.x3322.net/api.php/app/"
+    },{
+    "key": "taopian",
+    "name": "淘片",
+    "type": 0,
+    "api": "https://taopianapi.com/cjapi/mc10/vod/xml.html",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "changeable": 1
+  },
+{ 
       "key": "csp_xBPQ_毒蛇", 
       "name": "毒蛇|影视", 
       "type": 3,
@@ -673,7 +682,7 @@
             "api":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/h/色播.js",
             "searchable": 1,
             "changeable": 0
-        },{"key":"lf_js_lf_live","name":"🔞直播","type":3,"api":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js/lf_live1.txt"},{
+        },{
       "key": "XMVideo",
       "name": "🔞熊猫视频",
       "type": 3,
@@ -706,14 +715,206 @@
       "api": "csp_Cg51",
       "searchable": 1,
       "filterable": 1,"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/182.jar"
-    },{
-      "key": "XVideos",
-      "name": "🔞XVideos",
+    },{"key":"51黑料福利社","name":"51黑料福利社","type":3,"api":"csp_XBPQ","jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"发布地址":"https://51heiliaofulishe.com","主页url":"https://xn--sew--d22d-or3qf22vs68d.koxueyuan7pk789.xyz/ko","数组":"class=\"item-box\">&&</a","图片":"src=\"&&\"","副标题":"<!-- <small>&&</small> -->","简介":"description\" content=\"&&|全站免费","链接":"https://xn--sew--d22d-or3qf22vs68d.koxueyuan7pk789.xyz/v/+href=\"/voddetail/&&/\"+/","搜索模式":"1","搜索url":"https://xn--sew--d22d-or3qf22vs68d.koxueyuan7pk789.xyz/s/page/{pg}/wd/{wd}/","分类数组":"<a&&/a","分类标题":">&&<","分类ID":"/t/&&/","分类url":"https://xn--sew--d22d-or3qf22vs68d.koxueyuan7pk789.xyz/t/{cateId}-{catePg}/;;z"}},{
+            "key": "emby18",
+            "name": "EMBY18",
+            "type": 3,
+            "api": "https://down.nigx.cn/qu.ax/SAeB.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "server": "https://cherrytv.one:443",
+                "username": "ghost",
+                "password": "ghost",
+                "thread": 0
+            }
+        },{
+            "key": "sb",
+             "name": "sb18",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            },
+            "ext": {
+                "数组": "<article&&</article>",
+                "直接播放": "1",
+                "图片": "data-src=\"&&\"",
+                "分类url": "https://sexbjcam.com/category/{cateId}/page/{catePg}/?filter=latest;;D",
+                "分类": "chinese-gril$chinese-gril#korean-bj$korean-bj#chaturbate$chaturbate"
+            }
+        },{
+            "key": "x",
+            "name": "❤XX┃合集",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+           "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "style": {
+                "ratio": 1.7
+            },
+            "ext": {"数组":"lazyload\"&&</a>[不包含:禽兽爸爸]",
+                "搜索url": "https://xpdhj.fun/xpdhj/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "分类": "仓库资源$1#AVXXC$2#AV奥斯卡$3#115资源$4",
+                "分类url": "https://xpdhj.fun/xpdhj/index.php/vod/type/id/{cateId}/page/{catePg}.html"
+            }
+        },{"key":"吃瓜爆料网","name":"吃瓜爆料网","type":3,"api":"csp_XBPQ","jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"发布地址":"https://cgblw.com/","数组":"<meta itemprop=\"dateModified&&/h2","图片":"https://tuapi.eees.cc/api.php?category=meinv&type=302","标题":"headline\">&&<","副标题":"content=\"&&\"","链接":"href=\"&&\"","搜索url":"","分类url":"https://www.cgcg7.net/category/{cateId}/{catePg}/;;zDt","分类":"今日吃瓜$jrgb#最热头条$zrtt#网红爆料$whbl#反差爆料$fcbl#聚焦时事$jjss#国产精品$gcjp#校园瓜闻$xygw#吃瓜搞笑$cggx#电影天堂$dytt#领导秘事$ldms#海角论坛$hjlt#暗网猎奇$awlq"}},{
+      "key": "PPT",
+      "name": "❤️‍🔥〔PPT丨XP™〕",
       "type": 3,
-      "api": "csp_XVideos",
-      "searchable": 1,
-      "filterable": 1,"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/182.jar"
-    },{
+      "api": "csp_XBPQ",
+      "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+      "ext": {
+        "首页":"电视剧$30",
+        "数组":"col-4 item p-0 pr-1\">&&class=\"card-body&&</div",
+        "图片":"src=\"&&\"",
+        "标题": "alt=\"&&\"",
+        "副标题": "class=\"badge badge-success\">&&</span>",
+        "链接": "href=\"&&\"",
+        "搜索url": "https://ptt.red/node/search?title={wd}",
+        "搜索数组":"col-4 item p-0 pr-1\">&&class=\"card-body&&</div",
+        "搜索副标题": "class=\"badge badge-success\">&&</span>",
+        "多线二次截取": "class=\"tabbable fullwidth\">&&</div",
+        "多线数组": "class=\"nav-item\">&&</li",
+        "多线链接": "href=\"&&\"",
+        "多线链接前缀": "https://ptt.red",
+        "多线链接后缀": "",
+        "线路数组":"class=\"nav-item\">&&</li",
+        "线路标题": "title=\"&&\"",
+        "播放数组": "默认--class=\"mb-2 fullwidth\">&&</div>||电影--class=\"nav-item\">&&</li",
+        "播放标题": ">&&</a >",
+        "播放链接": "href=\"&&\"",
+        "直接播放":"体育",
+        "分类": "电影$1#电视剧$3#综艺$2#动漫$4#短剧$66#体育$53",
+        "分类url":"https://ptt.red/p/{cateId}?page={catePg}"
+      }
+},{"key":"黑料","name":"🍁黑料网","type":3,"api":"csp_XBPQ","jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"发布地址":"https://155.fun/(T)","短视频":"1","嗅探词":"https://hls.vdtuzv.com/videos3/#.m3u8?","数组":"<a class=\"cursor-pointer&&</a >","图片":"https://tuapi.eees.cc/api.php?category=meinv&type=302","标题":"title\" data-v-a51695bc>&&</div>","副标题":"ishot\" data-v-a51695bc>&&</div>","链接":"href=\"/archives/&&.html\"","链接前缀":"https://g3o9.ycoowhtcj.com/archives/","链接后缀":".html","分类url":"https://g3o9.ycoowhtcj.com/category/{cateId}/{catePg}.html","分类":"独家爆料&网红明星&反差女友&校园政坛&性爱课堂&奇闻异事&热点吃瓜&今日黑料&经典大瓜&黑料历史&每日热瓜","分类值":"9&1&4&2&12&3&7&6&8&10&11"}},{"key":"高清xxxx黑料",
+         "name":"🍁高清xxxx黑料",
+         "type":3,
+         "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+         "api":"csp_XBPQ",
+         "searchable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "ext":{"发布地址":"https://xxxxxxav3.com",
+         "主页url":"https://xxxxxxav3.com/xxxx",
+         "数组":"class=\"item-box\">&&</a","图片":"src=\"&&\"","标题":"title=\"&&\"","副标题":"<small>&&</small>","简介":"description\" content=\"&&|全站",
+         "链接":"href=\"&&\"[替换:voddetail>>v]","跳转播放链接":"urlDecode(var player_*url\":\"&&\")",
+         "搜索模式":"1","搜索url":"https://xxxxxxav3.com/s/page/{pg}/wd/{wd}/","分类数组":"<a&&/a>","分类标题":">&&<","分类ID":"/t/&&/","分类url":"https://xxxxxxav3.com/t/{cateId}-{catePg}/;;z"}},{"key":"传媒二区","name":"🍁传媒二区","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"主页url":"https://www.34gaobk.com/index.html","数组":"<div class=\"card mb-0\">&&</a","标题":"atl=\"&&\"","副标题":"img-tag\">&&</div>","简介":"document.title=\'&&\'","直接播放":"1","搜索模式":"1","搜索url":"https://www.34gaobk.com/gaosearch/{wd}-/page/{pg}/","分类数组":"<a&&/a>","分类标题":">&&<","分类ID":"/gaotype/&&.html","分类url":"https://www.34gaobk.com/gaotype/{cateId}_{catePg}.html[https://www.34gaobk.com/gaotype/{cateId}.html]"},"jar":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar"},{
+            "key": "天空影院H",
+            "name": "天空影院┃H版",
+            "type": 3,
+            "api": "csp_XBPQ",
+"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "playerType": "2",
+            "ext": {
+                "请求头": "",
+                "发布页": "",
+                "主页url": "http://tkyy.site/index.php/vodtype/dianying.html",
+                "数组": "class=\"stui-vodlist__thumb img-shadow\"&&</a",
+                "图片": "img src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "",
+                "链接": "",
+                "简介": "💕戒色救你一世，撸管毁你一生💕+left text-muted\">简介：</span>&&</span>",
+                "线路数组": "<span class=\"more text-muted pull-right&&</h3></div>",
+                "线路标题": "✨专享✨+title\">&&<",
+                "播放数组": "class=\"stui-content__playlist column10 clearfix\">&&</ul>",
+                "播放链接": "href='&&'",
+                "跳转播放链接": "Base64(var player_*\"url\":\"&&\")",
+                "跳转解析": "",
+                "嗅探词": "index.m3u8",
+                "搜索url": "/index.php/vodsearch/{wd}-------------.html",
+                "分类url": "http://tkyy.site/index.php/vodshow/{cateId}--------{catePg}---{year}.html",
+                "分类数组": "<a&&</a",
+                "分类标题": ">&&</a",
+                "分类ID": "href=\"/index.php/vodshow/&&-----------.html\""
+            }
+        }, {
+            "key": "午夜专享",
+            "name": "午夜TV┃⭕️",
+       "type": 3,
+       "api": "csp_XBPQ",
+"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+       "filterable": 0,
+       "style":{"type":"rect","ratio":1.333},
+       "ext":{"分类url":"https://www.xjys11.com/index.php/vod/show/class/{class}/id/{cateId}/page/{catePg}.html",
+       "播放数组":"<ul class=\"myui-content__list sort-list clearfix\"&&/ul>",
+       "分类":"视频一区&视频二区&视频三区&视频四区&特色专区&三级伦理&国产乱伦&美女主播&明星淫梦&TS人妖&中文字幕&日本有码&高清无码&精品素人&AV解说&VR专区",
+       "分类值":"29&30&28&27&31&25&26&27&28&29&30&31&32&49&50&51" }},
+     {
+            "key": "好色TV",
+            "name": "好色TV🔞",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "filterable": 1,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "直接播放": "1",
+                "数组": "class=\"col-xs-6 col-md-3\">&&</div>",
+                "图片": "style=\"background-image: url('&&')\"",
+                "链接": "href=\"&&\"",
+                "链接前缀": "https://hsex.icu/",
+                "搜索url": "https://hsex.icu/search.htm?search={wd}&sort=new",
+                "分类": "周榜$top7#月榜$top#5分钟$5min#10分钟$long",
+                "分类url": "https://hsex.icu/{cateId}_list-{catePg}.htm;;RC"
+            }
+        },{
+            "key": "天美",
+            "name": "天美之爱",
+            "type": 3,
+            "api": "csp_XBPQ",
+ "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "style": {
+                "ratio": 1.7
+            },
+            "ext": {
+                "搜索链接": "http://www.xbyc.cc/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "数组": "\"box-item\"&&</em>",
+                "副标题": "<strong>&&</strong>",
+                "分类数组": "<li>&&</li>",
+                "分类标题": "\">&&</a >",
+                "分类ID": "id/&&.",
+                "分类链接": "http://www.xbyc.cc/index.php/vod/type/id/{cateld}/page/{catePg}.html;;mz",
+                "页面代理": "127.0.0.1:10072"
+            }
+        },{"key":"大香蕉","name":"大香蕉","type":3,"api":"csp_XBPQ", "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"发布地址":"https://www.cc59.xyz/","主页url":"https://utwp.10241.icu","二次截取":"<div class=\"vdd\"&&<div class=\"pag\"","数组":"<a&&</a","图片":"data-src=\"\" src=\"&&\"","标题":"<p>&&</p","副标题":"","简介":"description\" content=\"&&免费","链接":"https://utwp.10241.icu/cv/+href=\"/cf/&&.html\"+-1-1.html","跳转播放链接":"urlDecode(var player_*url\":\"&&\")","搜索模式":"1","搜索url":"https://utwp.10241.icu/co/page/{pg}/wd/{wd}.html","分类url":"https://utwp.10241.icu/cx/{cateId}-{catePg}.html;;z","分类":"国产$1#黑料$2#三级$3#其他$4#日本$5#动漫$6"}}, {
+            "key": "大师兄影视H版",
+            "name": "大师兄影视|H版",
+            "type": 3,
+            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "api": "csp_XBPQ",
+            "playerType": "2",
+            "ext": {
+                "请求头": "手机",
+                "主页url": "http://www.dsxdy.shop/index.php/vodtype/dianying.html",
+                "数组": "class=\"stui-vodlist__box\">&&</div>",
+                "图片": "src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "",
+                "链接": "href=\"&&\"",
+                "简介": "name=\"description\" content=\"&&>",
+                "线路数组": "class=\"title\">&&</h3>",
+                "线路标题": ">鲨鱼快线<",
+                "播放数组": "ul class=\"stui-content__playlist column10 clearfix\">&&</ul>",
+                "播放链接": "href='&&'",
+                "嗅探词": "index.m3u8",
+                "搜索url": "/vodsearch/{wd}----------{pg}---.html",
+                "分类数组": "<a&&</a",
+                "分类标题": ">&&</a",
+                "分类ID": "href=\"/index.php/vodshow/&&-----------.html\"",
+                "分类url": "http://www.dsxdy.shop/index.php/vodshow/{cateId}--------{catePg}---.html"
+            }
+        },{
       "key": "ROU223",
       "name": "🔞223ROU | 视频",
       "type": 3,
