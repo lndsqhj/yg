@@ -691,9 +691,9 @@
       "filterable": 1,"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/182.jar"
     },{
             "key": "php_madou",
-            "name": "🔞麻豆3",
+            "name": "🔞麻豆xx",
             "type": 4,
-            "api": "https://demobe.serv00.net/madou.php",
+            "api": "https://t4.doube.eu.org/madou.php",
             "searchable": 1,
             "quickSearch":0,
             "filterable":0,
@@ -701,7 +701,8 @@
                 "type": "rect",
                 "ratio": 1.33
               }
-        },{
+        },
+{
       "key": "J91",
       "name": "🔞91珍惜",
       "type": 3,
@@ -837,7 +838,130 @@
                 "分类标题": ">&&</a",
                 "分类ID": "href=\"/index.php/vodshow/&&-----------.html\""
             }
-        }, {
+        },{
+            "key": "爱豆传媒",
+            "name": "🔞爱豆传媒",
+            "type": 3,
+            "api": "csp_XBPQ",
+    "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "ext": {
+                "主页url": "https://rourou.co/",
+                "直接播放": "1",
+                "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+                "数组": "class=\"myui-vodlist__box\">&&</div>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "分类url": "https://rourou.co/index.php/vod/type/id/{cateId}/page/{carePg}.html",
+                "分类": "麻豆视频$1#中文字幕$2#日本无码$3#日本有码$4#童颜巨乳$5#校园萝莉$6#女优明星$7#角色扮演$8#制服诱惑$9#强奸乱伦$31#AI换脸$32#黑料泄密$33#主播直播$34#国产精品$35#探花视频$36#女同性恋$37#SM调教$38#人妻熟女$40"
+            }
+        },{
+            "key": "亚色影库",
+            "name": "🔞亚瑟影库",
+            "type": 3,
+            "api": "csp_XBPQ",
+    "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "ext": {
+                "主页url": "https://www.yasetube.com/",
+                "直接播放": "1",
+                "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+                "分类url": "https://www.yasetube.com/video/category/{cateId}/page/{catePg}",
+                "分类": "女厕偷拍$nvce#海角系列$hj#FC2 PPV$fc2-ppv#Mesubuta系列$me#MILF人妻无码$milf#偷拍自拍$dalu#品牌传媒$madou"
+            }
+        },{
+            "key": "色最色",
+            "name": "🔞色最色",
+            "type": 3,
+            "api": "csp_XBPQ",
+    "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "ext": {
+                "主页url": "https://xn--zovv42dba.com/",
+                "直接播放": "1",
+                "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+                "分类url": "https://xn--zovv42dba.com/list-read-id-{cateId}-p-{catePg}",
+                "分类": "国产精品$19#偷拍自拍$20#欧美成人$26#中文无码$23#中文字幕$22#亚洲情色$21#卡通动漫$24#成人伦理$25"
+            }
+        },{
+            "key": "18j.tv",
+            "name": "🔞18j.tv",
+            "type": 3,
+            "api": "csp_XBPQ",
+     "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "ext": {
+                "主页url": "https://18j.tv/",
+                "直接播放": "1",
+                "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "分类url": "https://18j.tv/show/{cateId}/nid/1/page/{catePg}/sid/1/",
+                "分类": "国产$1#日韩$2#欧美$3#伦理$4#动漫$16"
+            }
+        },{
+            "key": "AVTOP10",
+            "name": "🔞AVTOP10",
+            "type": 3,
+            "api": "csp_XBPQ",
+          "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "ext": {"页面代理":"127.0.0.1:10172",
+                "主页url": "https://avtop10.com/",
+                  "头部集合": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#authority$avtop10.com#referer$https://avtop10.com/",
+  "分类": "最新影片&热门影片&高清影片&日本AV&欧美AV&动漫AV&中文字幕AV&无码AV&偷拍自拍&制服诱惑&人妻熟女&巨乳美乳&制服诱惑&学生校园&SM调教&网络红人&3P群交&乱伦家庭&强奸迷奸&性爱技巧&自慰诱惑",
+  "分类值": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&19&20&21",
+  "分类url": "https://avtop10.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg}",
+  "数组二次截取": "list\":[&&]",
+  "数组": "{&&}",
+  "图片": "vod_pic\"*\"&&\"",
+  "标题": "vod_name\"*\"&&\"",
+  "副标题": "vod_remarks\"*\"&&\"",
+  "链接": "https://avtop10.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,",
+  "搜索url": "https://avtop10.com/api.php/provide/vod/?ac=detail&wd={wd}",
+  "搜索模式": "1",
+  "搜索二次截取": "list\":[&&]",
+  "搜索数组": "{&&}",
+  "搜索图片": "vod_pic\"*\"&&\"",
+  "搜索标题": "vod_name\"*\"&&\"",
+  "搜索副标题": "vod_remarks\"*\"&&\"",
+  "搜索链接": "https://avtop10.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,",
+  "影片类型": "vod_class\"*\"&&\"",
+  "导演": "vod_director\"*\"&&\"",
+  "主演": "vod_actor\"*\"&&\"",
+  "简介": "vod_content\"*\"&&\"",
+  "线路二次截取": "\"list\":[&&]",
+  "线路数组": "\"vod_play_from\":&&,",
+  "线路标题": "\"&&\"",
+  "播放数组": "vod_play_url\":&&,[替换:\">>链表题#$>>题链#\\#>>链表表题]",
+  "播放二次截取": "",
+  "播放列表": "表&&表",
+  "播放标题": "题&&题",
+  "播放链接": "链&&链+?sku=OWY3ZDA4ZjVjYzY3YmRhYjM5NTUwYzEyZWRjNjUyZWM1NjQ2ZGRjYTVhMGVkM2Nh&p=1&sign=9a69d1563936ead3677623722660c4d9",
+  "播放请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#Referer$https://avtop10.com/#Cookie$PHPSESSID=t9a0fl2ngh4t175j3995v2669d",
+  "嗅探词": ".m3u8#.mp4#video_mp4#feiyunNB.mp4#.mp4#cdn.123pan.cn#huoshanvod.com"
+            }
+        },{
+  "key": "19麻豆",
+  "name": "🔞19麻豆",
+  "type": 3,
+  "api": "csp_XBPQ",
+ "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+  "ext": {
+      "站名": "19麻豆",
+      "主页url": "https://19q.cc/",
+                
+      "分类url": "https://19q.cc/index.php/vod/type/id/{cateId}/page/{catePg}.html", 
+      "分类":"麻豆视频&91制片厂&天美传媒&蜜桃传媒&皇家华人&星空传媒&精东影业&乐播传媒&成人头条&乌鸦传媒&兔子先生&杏吧原创&玩偶姐姐&mini传媒&大象传媒&开心鬼传媒&萝莉社&PsychoPorn&性世界&糖心Vlog&性视界",
+      "分类值": "1&2&3&4&5&6&7&8&9&10&20&21&22&23&24&25&29&26&27&28&30",
+                
+      "直接播放": "1",
+      "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+          
+      "数组": "<li>&&</li>",
+      "图片": "src=\"&&\"",
+      "标题": "alt=\"&&\"",
+      "链接": "href=\"&&\"",
+      "副标题": "<strong>&&</strong>"
+      }
+}, {
             "key": "午夜专享",
             "name": "午夜TV┃⭕️",
        "type": 3,
