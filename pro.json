@@ -63,16 +63,7 @@
         "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
         "三次跳转播放链接": "\"url\"*\"&&\""
       }
-    },  {
-      "key": "bulei",
-      "name": "布蕾Tv",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://buleitv.x3322.net/api.php/app/"
-    },{
+    },  {"key": "T4-hme","name": "黑木耳(T4)","type": 4,"api": "https://tang.hz.cz/power/hme","searchable": 1,"quickSearch": 1, "filterable": 1, "changeable": 0 },{
     "key": "taopian",
     "name": "淘片",
     "type": 0,
@@ -755,7 +746,8 @@
                 "播放请求头":"手机",
                 "分类": "中国$tagLanguageChinese#乌克兰$tagLanguageUkrainian#日本$tagLanguageJapanese#韩国$tagLanguageKorean#越南$tagLanguageVietnamese#哥伦比亚$tagLanguageColombian"
             }
-        },
+        },{"key":"今天gan少女","name":"🔞今天gan少女","type":3,"api":"csp_XBPQ", "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"发布地址":"www.gblw1.buzz","主页url":"https://www.gblw1.buzz","首页":"快乐五区","数组":"class=\"lazy&&</div></div>","图片":"data-original=\"&&\"","标题":"html\">&&</a","简介":"description\" content=\"&&高清","链接":"href=\"&&\"","跳转播放链接":"urlDecode(var player_*url\":\"&&\")","搜索模式":"1","搜索url":"https://www.gblw1.buzz/index.php/vod/search/page/{pg}/wd/{wd}.html","分类数组":"<a&&/a","分类标题":">&&<","分类ID":"/index.php/vod/type/id/&&.html","分类url":"https://www.gblw1.buzz/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z"}},
+{"key":"成人重口","name":"🔞成人重口","type":3,"api":"csp_XBPQ", "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"发布地址":"1:https://www.crzk11.buzz/,2:www.crzk3.top","主页url":"https://www.crzk22.buzz","数组":"<li class=\"content-item&&</li","图片":"data-original=\"&&\"","标题":"title=\"&&\"","副标题":"text-bg-r\">&&</span>","简介":"description\" content=\"&&剧情","链接":"https://www.crzk22.buzz/index.php/vod/play/id/+href=\"/index.php/vod/detail/id/&&.html\"+/sid/1/nid/1.html","跳转播放链接":"urlDecode(var player_*url\":\"&&\")","搜索模式":"1","搜索url":"https://www.crzk22.buzz/index.php/vod/search/page/{pg}/wd/{wd}.html","分类数组":"<a&&/a","分类标题":">&&<","分类ID":"/index.php/vod/type/id/&&.html","分类url":"https://www.crzk22.buzz/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z"}},
 {
       "key": "J91",
       "name": "🔞91珍惜",
@@ -951,7 +943,25 @@
                 "分类url": "https://18j.tv/show/{cateId}/nid/1/page/{catePg}/sid/1/",
                 "分类": "国产$1#日韩$2#欧美$3#伦理$4#动漫$16"
             }
-        },{
+        },{"key": "JAVDAY",
+            "name": "🔞JAVDAY",
+            "type": 3,
+            "api": "csp_XBPQ",
+"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "ext": {
+                "主页url": "https://javday.tv/",
+                "直接播放": "1",
+                "数组": "lazy loaded\"&&</a>",
+                "图片": "style=\"background-image: url(&&);\"",
+                "标题": "class=\"title\"&&</span>",
+                "副标题": "class=\"number\">&&</span>",
+                "简介": "title\"&&</span>",
+                "链接": "href=\"&&\"",
+                "分类url": "https://javday.tv/category/{cateId}/page/{catePg}/",
+                "分类": "新作上市$new-release#有碼$censored#國產AV$chinese-av#無碼流出$uncensored-leaked#糖心VLOG$txvlog#蘿莉社$luolisheus#HongKongDoll$hongkongdoll"
+            }
+        },
+{
             "key": "AVTOP10",
             "name": "🔞AVTOP10",
             "type": 3,
