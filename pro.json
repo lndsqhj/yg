@@ -708,7 +708,73 @@
                 "分类url": "https://jav.sb/javtype/{cateId}-{catePg}.html",
                 "分类": "日本有碼$Censored#日本無碼$Uncensored#FC2-PPV$FC2-PPV#無碼破解$Mosaic_Removed#中文字幕$CHN_SUB#MGS動画$MGS#寫真$Adult_IDOL#國產$Asian_Amateur"
             }
+        },{"key": "SOAV",
+            "name": "🔞SOAV",
+            "type": 3,
+            "api": "csp_XBPQ",
+   "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            },
+            "ext": {
+                "主页url": "https://www.wantav.co/",
+                "搜索url": "https://777080.xyz/?s={wd}",
+                "数组": "data-video-uid=&&</div>",
+                "图片": "data-src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "副标题": "</i>&&</span>",
+                "链接": "href=\"&&\"",
+                "简介": "⚠️少看点，再看你就废了！！！",
+                "分类url": "https://777080.xyz/category/{cateId}/page/{catePg}/;;z",
+                "分类": "國產精選$國產精選#探花約炮$探花約炮#日韓影片$日韓影片#無碼素人$無碼素人#歐美專區$歐美專區#中字動漫$中字動漫"
+            }
+        },{"key": "TaiAv",
+            "name": "🔞TaiAv",
+            "type": 3,
+            "api": "csp_XBPQ",
+           "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            },
+            "ext": {
+                "主页url": "https://taiav.com/",
+                "搜索url": "https://taiav.com/search?q={wd}",
+                "数组": "uk-card-media-top\"&&</a>",
+                "图片": "src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "副标题": "</span>&&</div>",
+                "链接": "href=\"&&\"",
+                "简介": "⚠️慢点撸，皮要掉了！！！",
+                "分类url": "https://taiav.com/cn/category/{cateId}?page={catePg};;z",
+                "分类": "国产AV$国产AV#网红主播$网红主播#有码$有码#无码$无码"
+            }
         },{
+    "key": "NiceAv",
+    "name": "🔥NiceAv",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+    "style": {
+        "type": "rect",
+        "ratio": 1.5
+    },
+    "ext": {
+        "主页url": "https://www.nice106.xyz/",
+       // "搜索url": "https://www.nice106.xyz/index.php/vod/search/wd={wd}",
+        //"数组": "col-6 col-sm-4 col-lg-3 mb-3\"> <a class=\"tag text-light\" href=\"&&",
+        "图片": "src=\"&&\"",
+        //"标题": "title=\"&&\"",
+        //"副标题": "</span>&&</div>",
+       // "链接": "href=\"&&\"",
+        "简介": "⚠️慢点撸，皮要掉了！！！",
+        "分类url": "https://www.nice106.xyz/index.php/vod/type/id/{cateId}.html",
+        "分类": "中文字幕$1#日本有码$2#日本无码$3#AV解说$4#cosplay$5#黑丝诱惑$6#SWAG$7#自拍偷拍$8#激情动漫$9#网红主播$10#探花系列$11#三级伦理$12#VR视角$13#国产传媒$14#素人搭讪$15#门事件$16"
+    }
+},
+
+{
             "key": "RJAV",
             "name": "🔞RJAV",
             "type": 3,
@@ -725,6 +791,27 @@
                 "分类": "FC2-PPV$FC2-PPV#日本無碼$JAV_Uncensored#馬賽克破壞$Mosaic_Removed#國產$Asian_Amateur#日本有碼$JAV_Censored#MGS動画$MGS#中文字幕$JAV+CHN.SUBs#動畫$Anime#歐美成人$Western_Porn#Korean BJ Dance$Korean_BJ_Dance#寫真$Adult_IDOL"
             }
         },{
+    "key": "玩偶妹妹",
+    "name": "玩偶妹妹",
+    "type": 3,
+    "api": "csp_XBPQ",
+   "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar",
+  "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+    "ext": {
+        "主页url": "https://urcccg.dbtav9.today/cn/home/web/",
+        "直接播放": "1",
+        //"数组": "class=\"thumb\"&&</div>",
+       // "图片": "src=\"&&\"",
+       //"标题": "title=\"&&\"",
+        //"链接": "href=\"&&\"",
+     //   "简介": "span.desc&&",
+    //    "主演": "",
+        "分类url": "https://urcccg.dbtav9.today/vodtype/{cateId}/{catePg}/;;a",
+        "分类": "国产精品$20#主播大秀$21#唯美视频$22#口交视频$23#日本有碼$24#日本無碼$25#动漫视频$26#欧美视频$27#日韩视频$28#欧美视频$29#动漫视频$30#伦理影片$31"
+    }
+},{
             "key": "18insta",
             "name": "💗┃💋18INSTA┃💠",
             "type": 3,
@@ -1152,6 +1239,19 @@
       "searchable": 0,
       "filterable": 1,"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/182.jar"
     },{
+      "key": "Theporn",
+            "name": "🔞Theporn",
+            "type": 3,
+            "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/lib/drpy2.min.js",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            },
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/lib/theporn.js"
+        },{
       "key": "HiPianZhiBo",
       "name": "🔞 嗨片直播 | 视频",
       "type": 3,
