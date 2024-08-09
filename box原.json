@@ -32,7 +32,26 @@
 				"播放标题": "<span>&&</span>",
 				"分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi"
 			}
-		}, {"key":"看看影视","name":"看看┃影视","type":3,"api":"csp_WebIV","searchable":1,"quickSearch":1,"filterable":0}, {
+		},  {
+            "key": "✨YY影视✨",
+            "name": "UU|影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": { "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://uuys.cc",
+                "二次截取": "module-page&&<div id=\"page\">",
+                "数组": "<a&&</div></div>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "副标题": "✨宝盒专享✨+module-item-note&&</div>",
+                "线路数组": "item tab-item&&</div>[排序:海湾资源>非凡播放>无尽资源]",
+                "线路标题": "宝盒专享✨+<span>&&</span>+【共+<small>&&</small>+集】","播放数组": "module-play-list\"&&</div>","播放标题": "宝盒专享✨+>&&</","简介": "✨宝盒提醒：请勿相信视频里的广告！✨+<p>&&</p >","搜索url":"https://uuys.cc/vodsearch/{wd}----------{pg}---.html",
+                "分类url": "https://uuys.cc/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "分类": "电影$2#电视剧$1#综艺$4#动漫$3"
+            }
+        },  {
       "key": "csp_LiteApple",
       "name": "苹果┃影视",
       "type": 3,
@@ -42,72 +61,7 @@
     "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },{
-      "key": "子子影视",
-      "name": "子子|影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://ghproxy.net/https://raw.githubusercontent.com/guot55/yg/main/lib/XBPQ.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "站名":"子子影视",    
-        "主页url":"https://www.ziziys.com",    
-        "简介":"video-info-item video-info-content vod_content\"&&</div>",    
-        "导演":"导演：&&</div>",    
-        "主演":"主演：&&</div>",    
-        "影片类型":"video-info-aux scroll-content\">&&立即播放",    
-        "影片状态":"集数：&&</div>",    
-        "数组":"module-item-cover\">&&module-item\">",    
-        "副标题":"module-item-text\">&&</div>",    
-        "链接":"href=\"&&\"",    
-        "标题":"title=\"&&\"",    
-        "图片":"data-src=\"&&\"",    
-        "搜索url":"/vsearch/{wd}--{pg}.html",    
-        "搜索模式":"1",    
-        "搜索数组":"<img class=\"lazy lazyload&&</h3>",    
-        "搜索图片":"data-src=\"&&\"",    
-        "搜索标题":"alt=\"&&\"",    
-        "搜索链接":"href=\"&&\"",    
-        "搜索副标题":"title=*>&&</a>",    
-        "搜索后缀":"/video/",    
-        "线路数组":"data-dropdown-value=&&</div>",    
-        "线路标题":"<span>&&</small>[替换:</span><small>>>>🌸共]+集🌸",    
-        "播放数组":"<div class=\"sort-item\"&&</div>",
-        "导演":"导演：&&</div>",    
-        "主演":"主演：&&</div>",    
-        "简介":"<div class=\"video-info-item video-info-content vod_content\">&&</div>",    
-        "影片类型":"icon-cate-ds\"&&立即播放",    
-        "影片状态":"集数：&&</div>",    
-        "播放列表":"<a&&</a>",    
-        "播放标题":"<span>&&</span>",    
-        "播放链接":"href=\"&&\"",        
-        "分类url":"https://www.ziziys.com/list/{cateId}-{catePg}.html;;ak",    
-        "分类":"电影$1#国产剧$13#动漫$3#美剧$14#日韩剧$15"
-    }
-    }, {"key":"星芽短剧","name":"上头┃短剧","type":3,"api":"csp_AppXY","searchable":1,"quickSearch":0,"filterable":0},  {
-      "key": "奇优🏮秒播",
-      "name": "奇优|秒播",
-     "jar": "https://ghproxy.net/https://raw.githubusercontent.com/guot55/yg/main/lib/XBPQ.jar",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "简介": "宝盒提醒您,请勿相信影片中的广告，以免上当受骗！+&&</div>",
-        "导演": "宝盒TV",
-        "主演": "主演：&&</p>",
-        "线路数组": "宝盒专享",
-        "线路标题": "宝盒专享",
-        "播放数组": "stui-content__playlist clearfix&&</ul>",
-        "播放列表": "<li>&&</li>",
-        "播放标题": ">&&</a>",
-        "分类url": "http://www.qiyoudy1.com/list/{cateId}_{catePg}.html[http://www.qiyoudy1.com/list/{cateId}.html];;ak",
-        "分类": "电影$1#电视剧$2#动漫$3#综艺$4"
-      }
-    },  {"key": "厂长影院",
+    }, {"key":"星芽短剧","name":"上头┃短剧","type":3,"api":"csp_AppXY","searchable":1,"quickSearch":0,"filterable":0},  {"key": "厂长影院",
             "name": "厂长┃影院",
             "type": 3,
             "jar": "https://ghproxy.net/https://raw.githubusercontent.com/guot55/yg/main/lib/XBPQ.jar",
@@ -194,18 +148,8 @@
 ]
 }
 }
-        },{
-            "key": "cs_bh",
-            "name": "宝盒|影视",
-            "type": 1,
-            "api": "https://guot55.serv00.net/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
-	{
-            "key": "drpy_js_北川",
-            "name": "北川|影视",
-            "type": 3,
-            "api": "https://ghproxy.net/https://raw.githubusercontent.com/guot55/yg/main/lib/drpy2.min.js",
-            "ext": "https://ghproxy.net/https://raw.githubusercontent.com/guot55/yg/main/lib/北川影视.js"
-        }, {"key":"荐片","name":"荐片┃推荐","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://api2.rinhome.com"}, 
+        },
+	 {"key":"荐片","name":"荐片┃推荐","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://api2.rinhome.com"}, 
 	{"key":"农民影视","name":"农民┃影视","type":3,"api":"csp_WexNmys","searchable":1,"changeable":1},
 		{"key":"酷看影视","name":"酷看┃影视","type":3,"api":"csp_Wexkukantv","searchable":1,"changeable":1},
 		{"key":"腐剧视频","name":"腐剧┃影视","type":3,"api":"csp_WexFujutv","searchable":1,"changeable":1}, 
