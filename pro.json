@@ -1188,7 +1188,8 @@
                 "分类": "DHT网络$1",
         "分类url": "https://u9a9b.cc/?type={cateId}&p={catePg};;m"
             }
-        },{"key":"黄色仓库","name":"🔞黄色仓库","type":3,"api":"csp_XBPQ","jar":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar","style":{"ratio":1.7},"ext":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/h/黄色仓库.json"},{
+        },{"key":"黄色仓库","name":"🔞黄色仓库","type":3,"api":"csp_XBPQ", "jar":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/lndsqhj/mylive/main/jar/XBPQ.jar",
+"style":{"ratio":1.7},"ext":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/h/黄色仓库.json"},{
             "key": "csp_XYBQ",
             "name": "🔞比卡|比卡",
             "type": 3,
