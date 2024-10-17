@@ -1,12 +1,12 @@
 {
-	"spider":"https://gitee.com/juanxiao/bh/raw/master/bhtv.jar",
+	"spider":"./bhtv.jar",
 	"sites":[
 		{
       "key": "drpy_js_豆瓣",
       "name": "🌈公众号【宝盒视界】",
       "type": 3,
       "api": "csp_Douban",
-"jar": "https://gitee.com/juanxiao/bh/raw/master/o2.jar",
+"jar": "https://www.gitlink.org.cn/api/guot55/yg/raw/jar%2Fo2.jar?ref=main",
       "searchable": 0
     },  {
       "key": "hipy_js_好趣网",
@@ -17,7 +17,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 87,
-      "ext": "https://gitee.com/juanxiao/bh/raw/master/hqw.js"
+      "ext": "https://codeberg.org/ygbh/bh/raw/branch/master/drpy_js/%E5%A5%BD%E8%B6%A3%E7%BD%91%5B%E6%92%AD%5D.js"
     }, {
       "key": "央视片库",
       "name": "央视|片库",
@@ -35,7 +35,6 @@
             "name": "UU|影视",
             "type": 3,
             "api": "csp_XBPQ",
-	"jar": "https://gitee.com/juanxiao/bh/raw/master/o.jar",
             "ext": { "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
                 "主页url": "https://uuys.cc",
@@ -85,34 +84,30 @@
       "name": "三思┃影视",
       "type": 3,
       "api": "csp_XBPQ",
-"jar": "https://gitee.com/juanxiao/bh/raw/master/o.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./lib/348.json"
-    }, {"key":"csp_xBPQ可可","name":"可可|影视","type":3,"api":"csp_XBPQ", "jar": "https://gitee.com/juanxiao/bh/raw/master/o.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.gitlink.org.cn/attachments/entries/get_file?download_url=https://www.gitlink.org.cn/api/guot55/yg/raw/pg%2Flib%2F%E5%8F%AF%E5%8F%AF%E5%BD%B1%E8%A7%86.json?ref=main"}, {
+    }, {"key":"csp_xBPQ可可","name":"可可|影视","type":3,"api":"csp_XBPQ", "searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.gitlink.org.cn/attachments/entries/get_file?download_url=https://www.gitlink.org.cn/api/guot55/yg/raw/pg%2Flib%2F%E5%8F%AF%E5%8F%AF%E5%BD%B1%E8%A7%86.json?ref=main"}, {
       "key": "qyys",
       "name": "奇优┃影视",
       "type": 3,
       "api": "csp_XBPQ",
-"jar": "https://gitee.com/juanxiao/bh/raw/master/o.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./lib/qyu.json"
-    },{"key": "奈飞影视","name":"鸭奈飞|影视","type":3,"api":"csp_XYQHiker", "jar": "https://gitee.com/juanxiao/bh/raw/master/wc.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/ynf.json"},
-{
-            "key": "csp_瓜子",
-            "name": "瓜子|影视",
-            "api": "csp_Gz360",
-            "jar": "https://gitee.com/juanxiao/bh/raw/master/gz.jar",
-            "type": 3,
-            "searchable": 1,
-            "playerType": 2,
-            "timeout": 30,
-            "changeable": 0
-        },
-{"key": "奈飞中文","name":"奈飞|中文","type":3,"api":"csp_XYQHiker","jar": "https://gitee.com/juanxiao/bh/raw/master/wc.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/nfzw.json"},
+    },{"key": "奈飞影视","name":"鸭奈飞|影视","type":3,"api":"csp_XYQHiker", "jar": "https://www.gitlink.org.cn/api/guot55/yg/raw/jar%2FXYQ.jar?ref=main","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/ynf.json"},
+	{
+			"key": "kimi",
+			"name": "Kimi┃影视",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"style": {
+				"ratio": 1.33
+			},
+			"ext":"https://www.gitlink.org.cn/api/guot55/yg/raw/lib%2FKimivod.json?ref=main"},
+{"key": "奈飞中文","name":"奈飞|中文","type":3,"api":"csp_XYQHiker","jar": "https://www.gitlink.org.cn/api/guot55/yg/raw/jar%2FXYQ.jar?ref=main","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/nfzw.json"},
 {"key":"星芽短剧","name":"上头┃短剧","type":3,"api":"csp_AppXY","searchable":1,"quickSearch":0,"filterable":0}, 
   {
             "key": "文采影视", 
@@ -213,7 +208,6 @@
             "name": "奈落┃蓝光",
             "type": 3,
             "api": "csp_XBPQ",
-	  "jar": "https://gitee.com/juanxiao/bh/raw/master/o.jar",
             "filterable": 1,
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
@@ -234,7 +228,7 @@
                 "分类": "电影$1#剧集$2#综艺$4#动漫$3#记录片$5#B站$39#短剧$53#体育$45",
                 "筛选": ""
             }
-        }, {"key": "凯奇追剧","name": "凯奇|影视","type": 3,"api": "csp_XBPQ","jar": "https://gitee.com/juanxiao/bh/raw/master/o.jar","ext": {"简介":"+hl-content-text\">&&</span>","分类url": "https://www.kqyy.tv/vodshow/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html","分类": "电影$dianying#连续剧$lianxuju#动漫$dongman#综艺$zongyi#短剧$duanshipin"}}, 
+        }, {"key": "凯奇追剧","name": "凯奇|影视","type": 3,"api": "csp_XBPQ","ext": {"简介":"+hl-content-text\">&&</span>","分类url": "https://www.kqyy.tv/vodshow/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html","分类": "电影$dianying#连续剧$lianxuju#动漫$dongman#综艺$zongyi#短剧$duanshipin"}}, 
 	{"key":"荐片","name":"荐片｜影视","type":3,"api":"csp_Jianpian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 {"key":"nangua","name":"南瓜｜影视","type":3,"playerType":"2","api":"https://xn--tkh-mf3g9f.v.nxog.top/m/js/ng_open.js"},
 {"key":"天天","name":"天天┃影视","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1},
@@ -395,27 +389,21 @@
 		{"key":"drpy_js_酷吧","name":"酷吧[js]|磁","type":3,"api":"./lib/drpy2.min.js","ext":"./js/kuba.js", "quickSearch":1, "changeable":1, "timeout":60},
 		{"key":"Xunlei8","name":"Xunlei8|磁","type":3,"api":"csp_Xunlei8","changeable":1, "timeout":60},
 		{"key":"SeedHub","name":"SeedHub|磁","type":3,"api":"csp_SeedHub","changeable":1, "timeout":60},
-		{"key": "学堂","name": "🅰️学堂┃教育","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,"ext":"https://tv.nxog.top/m/Bilibili/学堂教育.json"},
-		{"key": "少儿","name": "🅰️少儿┃合集","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://tv.nxog.top/m/Bilibili/少儿合集.json"}, 
-		{"key": "小学课堂","name": "🅰️小学┃课堂","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://tv.nxog.top/m/Bilibili/小学课堂.json"},
-		{"key": "初中课堂","name": "🅰️初中┃课堂","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://tv.nxog.top/m/Bilibili/初中课堂.json"},
-		{"key": "高中课堂","name": "🅰️高中┃课堂","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://tv.nxog.top/m/Bilibili/高中课堂.json"},
-		{"key":"小灯塔科学","name":"🌏科学┃小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"https://tv.nxog.top/m/Bilibili/小灯塔科学.json"}, 
-		{"key":"小灯塔地理","name":"🌏地理┃小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"https://tv.nxog.top/m/Bilibili/小灯塔地理.json"}, 
-		{"key":"小灯塔百科","name":"🌏百科┃小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"https://tv.nxog.top/m/Bilibili/小灯塔百科.json"}, 
-		{"key":"小灯塔国学","name":"🌏国学┃小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"https://tv.nxog.top/m/Bilibili/小灯塔国学.json"}, 
-{"key": "演唱会","name": "🅱演唱会┃哔哩","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://tv.nxog.top/m/Bilibili/演唱会.json"},
-		{"key": "戏曲","name": "🅱戏曲┃合集","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://tv.nxog.top/m/Bilibili/戏曲合集.json"}, 
-		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"./lib/tokenm.json"},
-		{
-			"key": "應用商店",
-			"name": "公众号:宝盒没宝",
-			"type": 3,
-			"api": "csp_Market",
-			"searchable": 0,
-			"changeable": 0,
-			"ext": "https://fm.t4tv.hz.cz/json/market.json"
-		}],
+		{"key": "学堂","name": "学堂┃教育","type": 3,"api": "https://xn--tkh-mf3g9f.v.nxog.top/m/js/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"https://xn--tkh-mf3g9f.v.nxog.top/m/js/我的哔哩.js?type=url&params=https://xn--tkh-mf3g9f.v.nxog.top/m/Bilibili/学堂教育.json"}, 
+{"key": "少儿","name": "少儿┃合集","type": 3,"api": "https://xn--tkh-mf3g9f.v.nxog.top/m/js/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"https://xn--tkh-mf3g9f.v.nxog.top/m/js/我的哔哩.js?type=url&params=https://xn--tkh-mf3g9f.v.nxog.top/m/Bilibili/少儿合集.json"},
+{"key": "小学课堂","name": "小学┃课堂","type": 3,"api": "https://xn--tkh-mf3g9f.v.nxog.top/m/js/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"https://xn--tkh-mf3g9f.v.nxog.top/m/js/我的哔哩.js?type=url&params=https://xn--tkh-mf3g9f.v.nxog.top/m/Bilibili/小学课堂.json"},
+{"key": "初中课堂","name": "初中┃课堂","type": 3,"api": "https://xn--tkh-mf3g9f.v.nxog.top/m/js/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"https://xn--tkh-mf3g9f.v.nxog.top/m/js/我的哔哩.js?type=url&params=https://xn--tkh-mf3g9f.v.nxog.top/m/Bilibili/初中课堂.json"},
+{"key": "高中课堂","name": "高中┃课堂","type": 3,"api": "https://xn--tkh-mf3g9f.v.nxog.top/m/js/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"https://xn--tkh-mf3g9f.v.nxog.top/m/js/我的哔哩.js?type=url&params=https://xn--tkh-mf3g9f.v.nxog.top/m/Bilibili/高中课堂.json"},
+	{"key": "演唱会","name": "演唱会┃哔哩","type": 3,"api": "https://xn--tkh-mf3g9f.v.nxog.top/m/js/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"https://xn--tkh-mf3g9f.v.nxog.top/m/js/我的哔哩.js?type=url&params=https://xn--tkh-mf3g9f.v.nxog.top/m/Bilibili/演唱会.json"}, 
+{"key": "戏曲","name": "戏曲┃合集","type": 3,"api": "https://xn--tkh-mf3g9f.v.nxog.top/m/js/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"https://xn--tkh-mf3g9f.v.nxog.top/m/js/我的哔哩.js?type=url&params=https://xn--tkh-mf3g9f.v.nxog.top/m/Bilibili/戏曲合集.json"},	
+{"key":"xbpq_喵次元","name":"喵喵┃动漫","type":3,"api":"csp_XBPQ","filterable":1,"changeable":1,"ext":{"简介":"宝盒提醒您请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</p >","分类url":"https://www.catwcy.com/show/{cateId}/by/{by}/class/{class}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html","分类":"日本动漫$1#动漫电影$2#欧美动漫$25#4K专区$26","搜索url":"/search.html?wd={wd}"}},
+{"key":"58动漫网","name":"之家┃动漫","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"⚠️宝盒提醒您⚠️请勿相信影片中的广告，以免上当受骗。+简介：&&</p>","搜索url":"https://dbwyt.com/search.php?searchword={wd}","分类url":"https://dbwyt.com/wuba/{cateId}-{catePg}.html","分类":"国产动漫$1#日本动漫$2#欧美动漫$47#海外动漫$3#动漫电影$4"}},
+{"key":"动漫大全","name":"大全┃动漫","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"⚠️宝盒特别提醒您⚠️请勿相信影片中的广告，以免上当受骗。+简介：&&</p>","线路数组":"<aclass=\"hl-tabs-btnhl-slide-swiper\"&&</a>","线路标题":"</i>&nbsp;&&</a>+集","分类url":"https://dingdingdm.com/list/{cateId}-{catePg}.html","分类":"动漫电影$1#国产动漫$3#日本动漫$2#欧美动漫$4#短剧$20"}},
+{"key":"萝卜动漫","name":"萝卜┃动漫","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"影片类型":"分类：&&</a>","简介":"请勿相信影片中的广告，以免上当受骗。+简介：&&</p>","分类url":"https://985dm.com/list/{cateId}-{catePg}.html","分类":"国产动漫$3#日本动漫$2#欧美动漫$4#动漫电影$1#短剧$20"}},
+{"key":"NyaFun动漫","name":"妮呀┃动漫","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"⚠️宝盒特别提醒您⚠️请勿相信影片中的广告，以免上当受骗。+简介：&&</p>","分类url":"https://nyafun.cc/index.php/vod/show/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html","分类":"TV动画$20#国漫$24#日漫$23#美漫$25#剧场版$21"}},
+{"key":"58动漫","name":"吾吧┃动漫","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"⚠️宝盒特别提醒您⚠️请勿相信影片中的广告，以免上当受骗。+简介：&&</p>","线路数组":"data-toggle=\"tab&&</a>","线路标题":">&&<","搜索url":"http://www.ting38.com/search.php?searchword={wd}","分类url":"http://www.ting38.com/ting/{cateId}-{catePg}.html","分类":"新番日漫$1#国产动漫$2#欧美动漫$3#动漫电影$4"}},
+		{"key": "push_agent","name": "公众号【宝盒没宝】","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"./lib/tokenm.json"},
+		{"key": "应用商店","name": "宝盒应用商店","type": 3,"jar":"https://gitea.moe/ygbh/bhmb/raw/branch/main/dm.jar","api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://3043.kstore.space/bhvip/jpg/bh.json"}],
 		"lives":[
 			 {
       "name": "宝盒专享",
