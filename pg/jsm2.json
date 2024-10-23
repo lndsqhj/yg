@@ -16,14 +16,14 @@
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 87,
-      "ext": "http://www.uuneed.cn/ygbh/bh/raw/master/drpy_js/%e5%a5%bd%e8%b6%a3%e7%bd%91[%e6%92%ad].js"
+      "ext": "https://codeberg.org/ygbh/bhapi/raw/branch/master/drpy_js/%e5%a5%bd%e8%b6%a3%e7%bd%91[%e6%92%ad].js"
     }, {
       "key": "央视片库",
       "name": "央视|片库",
       "type": 3,
       "api": "https://codeberg.org/ygbh/bhapi/raw/branch/master/drpy_libs/drpy2.min.js",
       "ext": "https://www.gitlink.org.cn/api/guot55/TVBOX/raw/JS%2F%E5%A4%AE%E8%A7%86%E7%89%87%E5%BA%93.js?ref=master"
-    },{"key": "应用商店","name": "宝盒┃商店","type": 3,"jar":"https://gitea.com/guot2024/bh/raw/branch/main/sd.txt","api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://3043.kstore.space/bhvip/jpg/bh.json"},
+    },{"key": "应用商店","name": "宝盒┃商店","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://3043.kstore.space/bhvip/jpg/bh.json"},
 	{"key":"配置中心","name":"配置┃中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597}}, 
 	 { "key": "一曲肝肠断", "name": "戏曲┃点播", "type": 3, "api": "https://codeberg.org/ygbh/bhapi/raw/branch/master/drpy_libs/drpy2.min.js", "ext": "./lib/xq.js", "style": { "type": "rect", "ratio": 1.597 } }, 
 	{"key":"荐片弹幕","name":"荐片┃弹幕","type":3,"api":"csp_Jianpian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
@@ -57,7 +57,7 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "http://www.uuneed.cn/ygbh/bh/raw/4102b5e8cea738c78c37d1be0b2974b8c215a642/drpy_js/%e9%87%91%e7%89%8c%e5%bd%b1%e9%99%a2.js"
+			"ext": "https://codeberg.org/ygbh/bhapi/raw/branch/master/drpy_js/drpy_js/%e9%87%91%e7%89%8c%e5%bd%b1%e9%99%a2.js"
 		},{
 			"key": "hipy_js_瓜子视频",
 			"name": "瓜子┃视频",
@@ -67,7 +67,7 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "http://www.uuneed.cn/ygbh/bh/raw/4102b5e8cea738c78c37d1be0b2974b8c215a642/drpy_js/%e7%93%9c%e5%ad%90%e8%a7%86%e9%a2%91.js"
+			"ext": "https://codeberg.org/ygbh/bhapi/raw/branch/master/drpy_js/%e7%93%9c%e5%ad%90%e8%a7%86%e9%a2%91.js"
 		},{
 			"key": "hipy_js_4K-AV",
 			"name": "4K┃视频",
@@ -77,7 +77,7 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "http://www.uuneed.cn/ygbh/bh/raw/4102b5e8cea738c78c37d1be0b2974b8c215a642/drpy_js/4K-AV.js"
+			"ext": "https://codeberg.org/ygbh/bhapi/raw/branch/master/drpy_js/4K-AV.js"
 		}, {"key":"木耳","name":"木耳┃影视","type":1,"api":"https://json02.heimuer.xyz/api.php/provide/vod","searchable":1,"filterable":1,"changeable":1,"timeout":20,"categories":["剧情片","动作片","冒险片","喜剧片","奇幻片","恐怖片","悬疑片","惊悚片","灾难片","爱情片","犯罪片","科幻片","歌舞片","战争片","经典片","动画电影","网络电影","其他片","国产剧","港剧","韩剧","日剧","泰剧","台剧","欧美剧","新马剧","其他剧","国产综艺","港台综艺","韩国综艺","日本综艺","欧美综艺","新马泰综艺","其他综艺","古装短剧","虐恋短剧","逆袭短剧","神豪短剧","重生短剧","复仇短剧","穿越短剧","甜宠短剧","强者短剧","欧美动漫","日本动漫","韩国动漫","国产动漫","港台动漫"],"header":{"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"} },  {
       "key": "ssys",
       "name": "三思┃影视",
@@ -96,7 +96,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./lib/qyu.json"
-    },{"key": "奈飞影视","name":"鸭奈飞|影视","type":3,"api":"csp_XYQHiker", "jar": "https://gitea.com/guot2024/bh/raw/branch/main/XYQ.txt","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/ynf.json"},
+    },{"key": "奈飞影视","name":"鸭奈飞|影视","type":3,"api":"csp_XYQHiker", "searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/ynf.json"},
 	{
 			"key": "kimi",
 			"name": "Kimi┃影视",
@@ -106,7 +106,7 @@
 				"ratio": 1.33
 			},
 			"ext":"https://www.gitlink.org.cn/api/guot55/yg/raw/lib%2FKimivod.json?ref=main"},
-{"key": "奈飞中文","name":"奈飞|中文","type":3,"api":"csp_XYQHiker","jar": "https://gitea.com/guot2024/bh/raw/branch/main/XYQ.txt","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/nfzw.json"},
+{"key": "奈飞中文","name":"奈飞|中文","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/nfzw.json"},
 {"key":"星芽短剧","name":"上头┃短剧","type":3,"api":"csp_AppXY","searchable":1,"quickSearch":0,"filterable":0}, 
   {
             "key": "文采影视", 
